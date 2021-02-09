@@ -203,20 +203,26 @@ html {
         font-size: 10px;
         line-height: 16px;
         color: #FFFFFF;
-        
         display: flex;
         align-items: center;
         text-align: center;
 	}
+
+	.wrapper-link {
+		background: url(./img/corner-1.svg) top 0 left 0 no-repeat,
+					url(./img/corner-2.svg) top 0 right 0 no-repeat,
+					url(./img/corner-3.svg) bottom 0 left 0 no-repeat,
+					url(./img/corner-4.svg) bottom 0 right 0 no-repeat;
+		
+	}
 	
 	.wrapper-link:hover {
-		transition: 1s;
-		animation-delay: 1s;
+		transition: 1s ease;
 		height: 492px;
-		background: url(./img/corner-1.svg) top 8px left 8px/20px 20px no-repeat,
-					url(./img/corner-2.svg) top 8px right 8px/20px 20px no-repeat,
-					url(./img/corner-3.svg) bottom 8px left 8px/20px 20px no-repeat,
-					url(./img/corner-4.svg) bottom 8px right 8px/20px 20px no-repeat;
+		background: url(./img/corner-1.svg) top 8px left 8px no-repeat,
+					url(./img/corner-2.svg) top 8px right 8px no-repeat,
+					url(./img/corner-3.svg) bottom 8px left 8px no-repeat,
+					url(./img/corner-4.svg) bottom 8px right 8px no-repeat;
 	}
     
     /*Section notepad*/
@@ -228,6 +234,7 @@ html {
 	}
     
     .notepad-content {
+		opacity: 1;
         padding-top: 150px;
         color: #FFFFFF;
         margin-left: 20px;
@@ -444,10 +451,6 @@ html {
 		text-decoration: none;
 	}
 	
-	.article-item:hover {
-		border: 2px solid #FAAF3F;
-	}
-	
     .article-item:last-child {
         margin-right: 0;
     }
@@ -463,6 +466,14 @@ html {
     .article-3 {
         background: url(./img/article-3.jpg);
     }
+
+	.wrapper-link-article:hover {
+		height: 177px;
+		background: url(./img/corner-1.svg) top 8px left 8px/20px 20px no-repeat,
+					url(./img/corner-2.svg) top 8px right 8px/20px 20px no-repeat,
+					url(./img/corner-3.svg) bottom 8px left 8px/20px 20px no-repeat,
+					url(./img/corner-4.svg) bottom 8px right 8px/20px 20px no-repeat;
+	}
     
     .article-text {
         width: 200px;
@@ -747,6 +758,31 @@ html {
 		text-align: center;
 	}
 
+	.wrapper-link {
+		height: 492px;
+		opacity: 0;
+		background: url(./img/corner-1.svg) top 0 left 0 no-repeat,
+					url(./img/corner-2.svg) top 0 right 0 no-repeat,
+					url(./img/corner-3.svg) bottom 0 left 0 no-repeat,
+					url(./img/corner-4.svg) bottom 0 right 0 no-repeat;
+		background-size: 0 0;	
+	}
+
+	.wrapper-link::after {
+		content: "";
+		opacity: 1;
+	}
+
+	.wrapper-link:hover {
+		height: 492px;
+		opacity: 1;
+		transition: 1s ease;
+		background: url(./img/corner-1.svg) top 8px left 8px no-repeat,
+					url(./img/corner-2.svg) top 8px right 8px no-repeat,
+					url(./img/corner-3.svg) bottom 8px left 8px no-repeat,
+					url(./img/corner-4.svg) bottom 8px right 8px no-repeat;
+	}
+
 	/*Section notepad*/
 	.notepad-wrapper {
 		width: 789px;
@@ -799,16 +835,6 @@ html {
 		margin-left: 580px;
 		width: 169px;
 		height: 17px;
-	}
-
-	.wrapper-link:hover {
-		transition: 1s;
-		animation-delay: 1s;
-		height: 492px;
-		background: url(./img/corner-1.svg) top 8px left 8px/20px 20px no-repeat,
-					url(./img/corner-2.svg) top 8px right 8px/20px 20px no-repeat,
-					url(./img/corner-3.svg) bottom 8px left 8px/20px 20px no-repeat,
-					url(./img/corner-4.svg) bottom 8px right 8px/20px 20px no-repeat;
 	}
 
 	/*Section antiquities*/
@@ -982,10 +1008,6 @@ html {
 		text-decoration: none;
 	}
 
-	.article-item:hover {
-		border: 2px solid #FAAF3F;
-	}
-
 	.article-item:last-child {
 		margin-right: 0;
 	}
@@ -1000,6 +1022,15 @@ html {
 
 	.article-3 {
 		background: url(./img/article-3.jpg);
+	}
+
+	.wrapper-link-article:hover {
+		height: 177px;
+		transition: 1s ease;
+		background: url(./img/corner-1.svg) top 8px left 8px/20px 20px no-repeat,
+					url(./img/corner-2.svg) top 8px right 8px/20px 20px no-repeat,
+					url(./img/corner-3.svg) bottom 8px left 8px/20px 20px no-repeat,
+					url(./img/corner-4.svg) bottom 8px right 8px/20px 20px no-repeat;
 	}
 
 	.article-text {
@@ -1287,14 +1318,23 @@ html {
 		text-align: center;
 	}
 
-	.wrapper-link:hover {
-		transition: 1s;
-		animation-delay: 1s;
+	.wrapper-link {
+		position: absolute;
 		height: 492px;
-		background: url(./img/corner-1.svg) top 8px left 8px/20px 20px no-repeat,
-					url(./img/corner-2.svg) top 8px right 8px/20px 20px no-repeat,
-					url(./img/corner-3.svg) bottom 8px left 8px/20px 20px no-repeat,
-					url(./img/corner-4.svg) bottom 8px right 8px/20px 20px no-repeat;
+		background: url(./img/corner-1.svg) top 0 left 0 no-repeat,
+					url(./img/corner-2.svg) top 0 right 0 no-repeat,
+					url(./img/corner-3.svg) bottom 0 left 0 no-repeat,
+					url(./img/corner-4.svg) bottom 0 right 0 no-repeat;
+		background-size: 0 0;
+	}
+
+	.wrapper-link:hover {
+		height: 492px;
+		transition: 1s ease;
+		background: url(./img/corner-1.svg) top 8px left 8px no-repeat,
+					url(./img/corner-2.svg) top 8px right 8px no-repeat,
+					url(./img/corner-3.svg) bottom 8px left 8px no-repeat,
+					url(./img/corner-4.svg) bottom 8px right 8px no-repeat;
 	}
 
 	/*Section notepad*/
@@ -1345,6 +1385,7 @@ html {
 
 	.notepad-smm-list {
 		display: flex;
+		position: absolute;
 		margin-top: 6px;
 		margin-left: 522px;
 		width: 169px;
@@ -1522,10 +1563,6 @@ html {
 		text-decoration: none;
 	}
 
-	.article-item:hover {
-		border: 2px solid #FAAF3F;
-	}
-
 	.article-item:last-child {
 		margin-right: 0;
 	}
@@ -1540,6 +1577,14 @@ html {
 
 	.article-3 {
 		background: url(./img/article-3.jpg);
+	}
+
+	.wrapper-link-article:hover {
+		height: 177px;
+		background: url(./img/corner-1.svg) top 8px left 8px/20px 20px no-repeat,
+					url(./img/corner-2.svg) top 8px right 8px/20px 20px no-repeat,
+					url(./img/corner-3.svg) bottom 8px left 8px/20px 20px no-repeat,
+					url(./img/corner-4.svg) bottom 8px right 8px/20px 20px no-repeat;
 	}
 
 	.article-text {
@@ -2039,10 +2084,6 @@ html {
 		margin-right: 20px;
 	}
 
-	.article-item:hover {
-		border: none;
-	}
-
 	.article-item:last-child {
 		margin-right: 15px;
 	}
@@ -2058,6 +2099,11 @@ html {
 
 	.article-3 {
 		background: url(./img/article-3.jpg);
+	}
+
+	.wrapper-link-article:hover {
+		height: 0;
+		background: none;
 	}
 
 	.article-text {
@@ -2566,10 +2612,6 @@ html {
 		margin-right: 15px;
 	}
 
-	.article-item:hover {
-		border: none;
-	}
-
 	.article-1 {
 		background: url(./img/article-1.jpg);
 	}
@@ -2581,6 +2623,11 @@ html {
 	.article-3 {
 		display: none;
 		background: url(./img/article-3.jpg);
+	}
+
+	.wrapper-link-article:hover {
+		height: 0;
+		background: none;
 	}
 
 	.article-text {
