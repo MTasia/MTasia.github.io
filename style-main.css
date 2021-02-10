@@ -207,6 +207,10 @@ html {
         align-items: center;
         text-align: center;
 	}
+
+	.wrapper-section-link {
+		text-decoration: none;
+	}
     
     /*Section notepad*/
     .notepad-wrapper {
@@ -256,7 +260,7 @@ html {
     }
     
     .notepad-link {
-		margin-top: 150px;
+		margin-top: 125px;
         margin-bottom: 41px;
     }
     
@@ -338,12 +342,12 @@ html {
 	}
 
     .antiquities-content {
-        padding-top: 85px;
         color: #FFFFFF;
         margin-left: 20px;
     }
     
     .antiquities-link {
+		margin-top: 60px;
         margin-bottom: 40px;
     }
     
@@ -407,12 +411,12 @@ html {
 	}
     
     .cluster-elasticsearch-content {
-        padding-top: 85px;
         color: #FFFFFF;
         margin-left: 20px;
     }
     
     .cluster-elasticsearch-link {
+		margin-top: 60px;
         margin-bottom: 40px;
     }
     
@@ -869,6 +873,10 @@ html {
 		text-align: center;
 	}
 
+	.wrapper-section-link {
+		text-decoration: none;
+	}
+
 	/*Section notepad*/
 	.notepad-wrapper {
 		width: 789px;
@@ -916,7 +924,7 @@ html {
 	}
 
 	.notepad-link {
-		margin-top: 130px;
+		margin-top: 125px;
 		margin-bottom: 41px;
 	}
 
@@ -1003,7 +1011,7 @@ html {
 	}
 
 	.antiquities-link {
-		margin-top: 65px;
+		margin-top: 60px;
 		margin-bottom: 40px;
 	}
 
@@ -1072,7 +1080,7 @@ html {
 	}
 
 	.cluster-elasticsearch-link {
-		margin-top: 65px;
+		margin-top: 60px;
 		margin-bottom: 40px;
 	}
 
@@ -1532,6 +1540,10 @@ html {
 		text-align: center;
 	}
 
+	.wrapper-section-link {
+		text-decoration: none;
+	}
+    
 	/*Section notepad*/
 	.notepad-wrapper {
 		width: 730px;
@@ -1580,7 +1592,7 @@ html {
 	}
 
 	.notepad-link {
-		margin-top: 130px;
+		margin-top: 125px;
 		margin-bottom: 41px;
 	}
 
@@ -1668,7 +1680,7 @@ html {
 	}
 
 	.antiquities-link {
-		margin-top: 65px;
+		margin-top: 60px;
 		margin-bottom: 40px;
 	}
 
@@ -1736,7 +1748,7 @@ html {
 	}
 
 	.cluster-elasticsearch-link {
-		margin-top: 65px;
+		margin-top: 60px;
 		margin-bottom: 40px;
 	}
 
@@ -2723,11 +2735,6 @@ html {
 		display: flex;
 		align-items: center;
 		text-align: center;
-	}
-
-	.wrapper-link:hover {
-		background: none;
-		height: 0;
 	}
 
 	/*Section notepad*/
