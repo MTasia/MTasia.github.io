@@ -391,12 +391,40 @@
     }
 
     .header-list {
-        margin-left: 1px;
+        margin-left: 14px;
+        margin-right: 14px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header-item-link {
+        padding: 3px 0;
+    }
+
+    .header-item-search {
+        display: none;
     }
 
     .header-item-link {
         font-family: "PT Sans Caption", sans-serif;
         font-size: 14px;
+    }
+
+    .header-item-link:hover {
+        background: none;
+        border-radius: 2px;
+        color: #000000;
+    }
+
+    .header-search-icon-nav {
+        display: none;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .header-list {
+        margin-left: 14px;
     }
 
     .header-item-news {
@@ -414,23 +442,6 @@
     .header-item-series {
         margin-right: -10px;
     }
-    
-    .header-item-search {
-        display: none;
-    }
-
-    .header-item-link:hover {
-        background: none;
-        border-radius: 2px;
-        color: #000000;
-    }
-
-    .header-search-icon-nav {
-        display: none;
-    }
-}
-
-@media (max-width: 320px) {
 
     .header-logo-mini {
 		margin-left: 54px;
@@ -447,4 +458,5 @@
     .header-auth {
         margin-left: 271px;
     }
+
 }
