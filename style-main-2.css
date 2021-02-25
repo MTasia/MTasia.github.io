@@ -81,8 +81,7 @@
 }
 
 .article-item .corner-1{
-    margin-top: 5px;
-    margin-left: 5px;
+    margin: 5px 0 0 5px;
 }
 
 .article-item:hover .corner-1{
@@ -119,9 +118,7 @@
 
 .article-text {
     width: 200px;
-    margin-top: -9px;
-    margin-left: 19px;
-    margin-bottom: 71px;
+    margin: -9px 0 71px 19px;
     font-family: "Brutal Type Bold", sans-serif;
     font-size: 15px;
     line-height: 24px;
@@ -129,8 +126,7 @@
 }
 
 .article .smm-list {
-    margin-left: 19px;
-    margin-bottom: -5px;
+    margin: 0 0 -5px 19px;
 }
 
 .heading-2 {
@@ -175,8 +171,7 @@
 
 .block-list li {
     background: url(./img/list-item.svg) no-repeat 0 5px;
-    margin-left: -4px;
-    margin-bottom: 24px;
+    margin: 0 0 24px -4px;
 }
 
 .block-list .block-item-iphone {

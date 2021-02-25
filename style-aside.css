@@ -1,23 +1,23 @@
 /*aside*/
 .aside {
-    margin-top: 98px;
+    margin: 98px 0 0 0;
 }
 
 .aside-item {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
 }
 
 .aside-topic {
     display: flex;
-    margin-left: 20px;
+    margin: 0 0 15px 20px;
     padding-top: 19px;
-    margin-bottom: 15px;
 }
 
 .aside-topic-text {
     width: 92px;
     padding: 3px 0;
+    margin: 0 60px 0 0;
     color: #FFFFFF;
     background: #333333;
     border-radius: 2px;
@@ -27,7 +27,6 @@
     line-height: 18px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    margin-right: 60px;
 }
 
 .aside-topic-link {
@@ -84,8 +83,7 @@
     width: 1px;
     height: 227px;
     padding: 25px 0;
-    margin-left: 20px;
-    margin-bottom: 13px;
+    margin: 0 0 13px 20px;
 }
 
 .aside-series-list {
@@ -95,8 +93,7 @@
 .aside-series-list li{
     width: 10px;
     background: url(./img/list-item.svg) no-repeat 0 5px;
-    margin-left: -4px;
-    margin-bottom: 23px;
+    margin: 0 0 23px -4px;
 }
 
 .aside-list-item {
@@ -137,8 +134,7 @@
     background: url(./img/aside-tests.jpg);
     width: 215px;
     height: 238px;
-    margin-left: 19px;
-    margin-bottom: 27px;
+    margin: 0 0 27px 19px;
 }
 
 .aside-tests-wrapper-link {
@@ -210,8 +206,7 @@
     width: 214px;
     display: table;
     position: relative;
-    margin-left: 20px;
-    margin-bottom: 13px;
+    margin: 0 0 13px 20px;
 }
 
 .aside-video .aside-topic {
@@ -253,21 +248,19 @@
 }
 
 .aside-news-data {
-    margin-left: 20px;
+    margin: 0 0 7px 20px;
     font-family: "PT Sans Bold", sans-serif;
     font-size: 15px;
     line-height: 21px;
     color: #333333;
-    margin-bottom: 7px;
 }
 
 .aside-news-time {
-    margin-left: 19px;
+    margin: 0 0 4px 19px;
     font-family: "PT Sans", sans-serif;
     font-size: 14px;
     line-height: 24px;
     color: #516E77;
-    margin-bottom: 4px;
 }
 
 .aside-news-text {
