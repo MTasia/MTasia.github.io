@@ -502,9 +502,8 @@
         padding: 0 0 0 21px;
     }
 
-    .block-content-3 {
-        display: block;
-        margin-right: 0;
+    .block-hidden .block-item {
+        display: none;
     }
 
     .line {
@@ -637,7 +636,7 @@
         padding: 0 0 0 20px;
     }
 
-    .block-content-3 {
+    .block-hidden .block-item {
         display: none;
     }
     
