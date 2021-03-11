@@ -428,7 +428,7 @@
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1024px){
     .text {
         margin: 0 0 28px 15px;
     }
@@ -520,7 +520,7 @@
         background: url(./img/list-item.svg) no-repeat 0 5px;
     }
     
-    .block-item:hover {
+    .block-list li:hover .block-item{
         color: #333333;
     }
     
@@ -706,7 +706,7 @@
         background: url(./img/list-item.svg) no-repeat 0 5px;
     }
     
-    .block-item:hover {
+    .block-list li:hover .block-item{
         color: #333333;
     }
 

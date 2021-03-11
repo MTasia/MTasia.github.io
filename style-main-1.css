@@ -365,7 +365,7 @@ body {
 
 }
 
-@media (min-width: 1440px) and (max-width: 1919px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
     .body-wrapper {
         width: 1200px;
     }
@@ -609,7 +609,7 @@ body {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
     .body-wrapper {
         width: 1024px;
     }
@@ -854,7 +854,7 @@ body {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1024px){
     .body-wrapper {
         width: 100%;
     }
