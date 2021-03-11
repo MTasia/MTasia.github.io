@@ -60,7 +60,11 @@
     line-height: 18px;
     letter-spacing: 0.02em;
     padding: 7px 48px 8px;
-    margin-left: 20px;
+    
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .aside-link:hover {
@@ -94,7 +98,7 @@
     background: url(./img/list-item.svg) no-repeat 0 5px;
     display: inline-block;
     position: relative;
-    left: -4px;
+    transform: translateX(-2%);   
     margin-bottom: 23px;
 }
 
