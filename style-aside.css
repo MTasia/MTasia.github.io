@@ -91,9 +91,11 @@
 }
 
 .aside-series-list li{
-    width: 10px;
     background: url(./img/list-item.svg) no-repeat 0 5px;
-    margin: 0 0 23px -4px;
+    display: inline-block;
+    position: relative;
+    left: -4px;
+    margin-bottom: 23px;
 }
 
 .aside-list-item {
@@ -107,16 +109,19 @@
     text-decoration: none;
 }
 
-.aside-series-list li:hover{
+.aside-series-list li:hover {
+    cursor: pointer;
     background: url(./img/list-item-hover.svg) no-repeat 0 5px;
-}
-
-.aside-list-item:hover {
     color: #FAAF3F;
 }
 
+.aside-series-list li:hover .aside-list-item {
+    color: #FAAF3F;
+}
+
+
 /*tests*/
-.aside-tests{
+.aside-tests {
     width: 251px;
     height: 374px;
 }

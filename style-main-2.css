@@ -171,7 +171,10 @@
 
 .block-list li {
     background: url(./img/list-item.svg) no-repeat 0 5px;
-    margin: 0 0 24px -4px;
+    display: inline-block;
+    position: relative;
+    left: -5px;
+    margin-bottom: 23px;
 }
 
 .block-list .block-item-iphone {
@@ -189,10 +192,12 @@
 }
 
 .block-list li:hover{
+    cursor: pointer;
     background: url(./img/list-item-hover.svg) no-repeat 0 5px;
+    color: #FAAF3F;
 }
 
-.block-item:hover {
+.block-list li:hover .block-item{
     color: #FAAF3F;
 }
 

@@ -1,6 +1,7 @@
 /*Header*/
 .header {
     background: linear-gradient(360deg, #223036 0%, #223036 100%);
+    position: relative;
 }
 
 .header-logo {
@@ -53,6 +54,7 @@
     height: 48px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     display: flex;
+    position: relative;
 }
 
 .header-list {
@@ -89,27 +91,27 @@
     .header-logo {
         width: 370px;
         height: 80px;
-        margin-top: 48px;
-        margin-left: 47px;
+        top: 48px;
+        left: 47px;
     }
 
     .header-text {
         width: 658px;
 		height: 87px;
-		margin-top: 44px;
-		margin-left: 473px;
+		top: 44px;
+		left: 473px;
     }
 
     .header-auth {
-        margin-left: 1148px;
-        margin-top: 14px;
+        right: 15px;
+        top: 14px;
     }
 
     /*Header-memu*/
     .header-menu-icon-nav {
         position: absolute;
-        margin-top: 15px;
-        margin-left: 46px;
+        top: 15px;
+        left: 46px;
     }
 
     .header-menu-icon-nav::after {
@@ -145,8 +147,8 @@
 
     .header-search-icon-nav {
         position: absolute;
-        margin-top: 15px;
-		margin-left: 1173px;
+        top: 15px;
+		right: 12px;
     }
 
     .header-search-icon-nav::after {
@@ -167,27 +169,27 @@
     .header-logo {
 		width: 370px;
 		height: 80px;
-		margin-top: 48px;
-		margin-left: 47px;
+        top: 48px;
+		left: 47px;
 	}
 
     .header-text {
         width: 658px;
 		height: 87px;
-		margin-top: 44px;
-		margin-left: 473px;
+		top: 44px;
+		left: 473px;
     }
 
     .header-auth {
-        margin-left: 1148px;
-        margin-top: 14px;
+        right: 15px;
+        top: 14px;
     }
 
     /*Header-memu*/
     .header-menu-icon-nav {
         position: absolute;
-        margin-top: 15px;
-        margin-left: 46px;
+        top: 15px;
+        left: 46px;
     }
 
     .header-menu-icon-nav::after {
@@ -223,8 +225,8 @@
 
     .header-search-icon-nav {
         position: absolute;
-        margin-top: 15px;
-		margin-left: 1173px;
+        top: 15px;
+		right: 12px;
     }
 
     .header-search-icon-nav::after {
@@ -245,27 +247,25 @@
     .header-logo {
         width: 370px;
 		height: 80px;
-		margin-top: 48px;
-		margin-left: 32px;
+		top: 48px;
+		left: 32px;
     }
 
     .header-text {
         width: 550px;
 		height: 87px;
-		margin-top: 36px;
-		margin-left: 424px;
+		top: 36px;
+		left: 424px;
     }
 
     .header-auth {
-        margin-left: 975px;
-        margin-top: 16px;
+        right: 15px;
+        top: 16px;
     }
 
     /*Header-memu*/
     .header-menu-icon-nav {
         position: absolute;
-        width: 11px;
-		height: 12px;
         margin-top: 14px;
         margin-left: 38px;
     }
@@ -303,8 +303,8 @@
 
     .header-search-icon-nav {
         position: absolute;
-        margin-top: 15px;
-		margin-left: 989px;
+        top: 15px;
+		right: 17px;
     }
 
     .header-search-icon-nav::after {
@@ -325,8 +325,9 @@
     .header-logo {
 		width: 370px;
 		height: 80px;
-		margin-top: 49px;
-		margin-left: 26%;
+		top: 49px;
+		left: 50%;
+        transform: translateX(-50%);
     }
 
     .header-text {
@@ -338,8 +339,8 @@
 		position: absolute;
 		width: 19px;
 		height: 16px;
-		margin-top: 16px;
-		margin-left: 2%;
+		top: 16px;
+		left: 2%;
 	}
 
     .header-menu-icon::after {
@@ -350,8 +351,8 @@
     }
 
     .header-auth {
-        margin-left: 93.6%;
-		margin-top: 16px;
+        right: 2%;;
+		top: 16px;
     }
 
     /*Header-memu*/
@@ -410,8 +411,8 @@
     .header-logo-mini {
 		display: block;
 		position: absolute;
-		margin-top: 7px;
-		margin-left: 17%;
+		top: 7px;
+		left: 17%;
 	}
 
     .header-logo-mini::after {
@@ -430,8 +431,8 @@
 		position: absolute;
 		width: 19px;
 		height: 16px;
-		margin-top: 16px;
-		margin-left: 5%;
+		top: 16px;
+		left: 5%;
 	}
 
     .header-menu-icon::after {
@@ -446,8 +447,8 @@
 		position: absolute;
 		width: 14px;
 		height: 14px;
-		margin-top: 15px;
-		margin-left: 77%;
+		top: 15px;
+		right: 23%;
 	}
 
     .header-search-icon::after {
@@ -459,8 +460,8 @@
     
 
     .header-auth {
-        margin-left: 84.7%;
-		margin-top: 18px;
+        right: 5%;
+		top: 18px;
     }
 
     /*Header-memu*/
@@ -522,19 +523,21 @@
     }
 
     .header-logo-mini {
-		margin-left: 54px;
+		left: 54px;
 	}
 
     .header-menu-icon {
-		margin-left: 16px;
+		left: 16px;
 	}
 
     .header-search-icon {
-		margin-left: 247px;
+		right: 64px;
 	}
 
     .header-auth {
-        margin-left: 271px;
+        right: 16px;
     }
+
+
 
 }
